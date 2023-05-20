@@ -1,0 +1,116 @@
+body {
+    padding: 0;
+    margin: 0;
+    color: #000;
+    text-align: center;
+    font-family: "Montserrat", Times, serif;
+    width: auto;
+}
+
+.flex_body {
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+}
+
+header {
+    height: 100vh;
+}
+
+hr {
+    border: dotted rgb(184, 3, 255) 5px;
+    border-bottom: none;
+    margin: auto;
+    width: 50%;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.cv_header {
+    justify-content: start;
+    align-items: center;
+    height: 100%;
+    background-color: rgb(184, 3, 255);
+    padding: 0 20px;
+}
+
+.cv_header h1 {
+    font-size: 60px;
+    margin-top: 20vh;
+    font-family: "Bruno_Ace_SC variant0", Tofu;
+}
+
+.description {
+    margin-top: 20px;
+}
+
+.marketing_image {
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    bottom: 0;
+
+}
+
+.cv_header h2 {
+    font-size: 40px;
+}
+.second_paragraph {
+    justify-content: start;
+    align-items: center;
+}
+.second_paragraph .personal_image {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+
+.paragraph_header {
+    font-size: 35px;
+    color: rgb(184, 3, 255);
+}
+
+.paragraph_body {
+    font-size: 20px;
+}
+
+.first_skill_body {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 0 160px;
+}
+
+.first_skill {
+    margin-left: 20px;
+    text-align: left;
+}
+
+.second_skill {
+    margin-right: 20px;
+    text-align: left;
+}
+
+.first_skill_description {
+    word-break: break-all;
+}
+
+.contact_me {
+    padding: 10px 25px;
+    border-radius: 10px;
+    background-color: rgb(184, 3, 255);
+    color: #000;
+    text-decoration: none;
+    border: solid black 1px;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgb(184, 3, 255);
+    height: 150px;
+    margin-top: 100px;
+}
